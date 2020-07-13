@@ -1,0 +1,148 @@
+*{
+    margin: 0px;
+    padding : 0px;
+}
+
+.adminlist{
+    list-style: none;
+    justify-self: center;
+    height: 100vh;
+    width : 100%;
+    background-color: aqua;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    align-self: center;
+    justify-self: center;
+   
+    
+
+}
+
+.list-content{
+    font-size: 30px;
+    height: 50px;
+    width: 700px;
+    padding: 10px;
+    text-align: center;
+    line-height: 50px;
+    border: 3px solid black;
+    margin: 10px;
+}
+
+.list-content:hover{
+    box-shadow: 5px 5px 5px 5px #888888;
+}
+
+
+#tagName{
+    font-size: 30px;
+}
+
+
+textarea{
+    font-size: 30px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width : auto;
+
+}
+
+textarea:hover{
+    border: 1px solid;
+    box-shadow: 5px 10px 8px 10px #888888;
+}
+#submitButton{
+    height : 40px;
+    width : 100px;
+    margin-top : 30px;
+    font-size: large;
+}
+
+.selective-option{
+    font-size: 30px;
+    color: black;
+}
+
+#selective-menu{
+    margin-top: 20px;
+    width : auto;
+    font-size: 30px;
+    color: gray; 
+    padding-right: 10px;
+}
+
+.list_container{
+	border : 2px solid black;
+	margin : 20px;
+
+
+}
+
+
+.list_question{
+	text-align : start;
+	margin-left : 50px;
+	width : calc(100% - 40%);
+	height : 50px;	
+	text-overflow : none;
+	
+
+}
+
+
+.list_submitted_by{
+	width : calc(100% - 70%);
+	float : right;
+	margin-top : -40px;
+	
+	
+}
+
+
+.problem_heading{
+	font-size : 25px;
+	text-align : start;
+	margin-left : 40px;
+	margin-top : 20px;
+}
+
+.problem_question{
+	font-size : 20px;
+	text-align : start;
+	margin-left : 100px;
+}
+.problem_explanation{
+	font-size : 20px;
+	text-align : start;
+	margin-left : 100px;
+}
+.problem_input{
+	font-size : 20px;
+	text-align : start;
+	margin-left : 100px;
+}
+.problem_output{
+	font-size : 20px;
+	text-align : start;
+	margin-left : 100px;
+}
+
+.problem_code{
+	font-size : 15px;
+	margin-top : 30px;
+	margin-left :20px;
+	margin-right : 20px;
+	width : 100%;
+	min-height : 500px;
+	height : auto;
+}
+
+.problem_marks{
+	margin-top : 20px;
+}
+
+.problem_button{
+	margin-top : 20px;
+}	
